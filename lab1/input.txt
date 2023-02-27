@@ -1,0 +1,20 @@
+#k working example.
+First
+This is a #k example.
+second
+This # k should not change.
+nd
+Neither should #f.
+nd
+Or %s!
+nd
+This: #k should be bombastic!
+RaInBoW
+#a #b #c #d #e #f
+none
+k#kk
+kak
+k##k
+Double hash is not scary for me!
+And neither is #kk.
+END
