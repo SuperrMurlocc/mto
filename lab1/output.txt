@@ -1,0 +1,10 @@
+fIRST working example.
+This is a SECOND example.
+This # k should not change.
+Neither should #f.
+Or %s!
+This: rAiNbOw should be bombastic!
+#a #b #c #d #e #f
+kKAKk
+k#dOUBLE HASH IS NOT SCARY FOR ME!
+And neither is endk.
