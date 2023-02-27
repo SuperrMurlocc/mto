@@ -2,7 +2,7 @@
 
 import sys
 
-def my_printf(format_string,param):
+def my_printf(format_string, param):
     print(format_string.replace('#k', param.swapcase()))
 
 data = sys.stdin.readlines()
