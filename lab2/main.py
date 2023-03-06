@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 
 import sys
+import re
 
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    match = re.search("#(\.\d+)?k", format_string)
+
+    if not match:
+        print(format_string)
+        return
+
+    replacement = format_string[match.start():match.end()]
+
+    max_chars = len(param)
+    if match.group(1):
+        max_chars = int(match.group(1)[1:])
+
+    print(format_string.replace(replacement, param.swapcase()[:min(len(param),max_chars)]))
 
 data=sys.stdin.readlines()
 
