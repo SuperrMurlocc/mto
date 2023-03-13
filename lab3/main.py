@@ -20,7 +20,7 @@ def my_printf(format_string,param):
 
     min_length = match.group(1)
     if min_length:
-        param = " " * max(0, min_length - len(param)) + param
+        param = " " * max(0, int(min_length) - len(param)) + param
 
     print(format_string.replace(replacement, param))
 
