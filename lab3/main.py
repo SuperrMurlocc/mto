@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 
+import re
 import sys
 
 def my_printf(format_string,param):
-    #print(format_string)
-    shouldDo=True
-    for idx in range(0,len(format_string)):
-        if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
-                shouldDo=False
-            else:
-                print(format_string[idx],end="")
-        else:
-            shouldDo=True
-    print("")
+    match = re.search(r'#([1-9]\d*)?(\.\d+)?k', format_string)
+
+    if not match:
+        print(format_string)
+        return
+
+    replacement = match.group(0)
+
+    param = param.swapcase()
+
+    print(format_string.replace(replacement, param))
 
 data=sys.stdin.readlines()
 
