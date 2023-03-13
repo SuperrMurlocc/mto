@@ -14,6 +14,10 @@ def my_printf(format_string,param):
 
     param = param.swapcase()
 
+    max_length = match.group(2)
+    if max_length:
+        param = param[:int(max_length[1:])]
+
     print(format_string.replace(replacement, param))
 
 data=sys.stdin.readlines()
