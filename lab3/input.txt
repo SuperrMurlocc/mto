@@ -1,20 +1,40 @@
-totafsdfsf #k fdsfsdf
-test
-totafsd#k fdsfsdf fdfjs
-test2
-jfldjfldk # wynik
-test3
-fjdfsfds # k alal
-test4
-djfjkldsjf #k jjjjjj fsfjdljfdlsj flj ldfj
-test5
-gjjkdsljflds #k jdlkfjdslf
-test6
-fjdslkfjdl #k tttttt
-test7
-fjdlsjfkl #k oooolll
-test8
-rwrewrew #k fjdslkjfdl
-test9
-fjdlskjfldjflj #k rewrewrew
-test10
+To jest przykład #k.
+pIeRwSzY
+To jest przykład #.3k.
+DRUGI
+Przykład #.10k.
+trzeciTRZECI
+Przykład odpowiednio #.50k.
+dłuUUgi   i
+Oraz zdecydowanie zbyt #.1k.
+krótki
+Stary #k wciąż działa.
+PR ZyK ład
+Teraz trochę ## kk #..k #-k #--k #-2.k #..k #.-2k.
+niczego
+Lekki ##kk.
+przYkłAd
+#.21.k #.21k #..k.
+teś cik
+#.12k.
+!@#$%^&*()-=123
+Ala ma #6k.
+kota
+Ala ma #3k.
+kOtA
+Ala ma #6.3k.
+KoTa
+Ala ma #.0k.
+kota
+Ala ma #5.0k.
+kota
+Ala ma #0.0k.
+kota
+Ala ma #4k.
+KOTA
+Ala ma #3k.
+kOtA
+Ala ma #6k.
+KOTAAAAAAAA
+Ala ma #0.k #0k. #00k #21k #..k #.k.
+kotaKOTAkota
